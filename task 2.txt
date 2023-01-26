@@ -1,0 +1,46 @@
+
+1) var student = { "name" : "Suresh", 
+   "Age" : "14",
+   "class" : "Tenth standard",
+   "school" : "Government Higher Secondary School",
+   "place : "Erode",
+   "Grade" : "D"
+   };
+   console.log(student);
+
+2) var Resume = { "name" : "Logeshnarayanan",
+   "Email" : "logeshnarayanan09@gmail.com",
+   "address" : "101, Alampalayam",
+   "date of birth" : "24-06-1990",
+   "mobile number" : "7010972263",
+   "educational qualification" : "Master of Computer Applications",
+   "year of passing" : "2013",
+   "Project" : "Resilient Identity crime detection",
+   "experience details" : "Agriculture and electrical knowledge",
+   "key skills" : "Hard work, finally to finish the work",
+   "languages known" : "Tamil, English"
+   }
+   for(var a in Resume){
+   console.log(a,Resume[a]);
+   }
+
+3) Difference between Window,Document and Screen in Javascript
+
+   * The window in javascript is represents the current browser or webpage,
+     and contains the javascript properties and methods, such as opening and
+     closing the current window, and manipulating the History and manipulating
+     the DOM(document object model) of the current page.
+   
+   * The document object represents the current webpage, and it contains the
+     methods and properties and manipulating the DOM and HTML page, it is a
+     one of the property of window object.
+
+   * The screen object is an showing the results in user to the webpage and
+     normal page of the display. It contains the properties and methods 
+     for getting information about the screen, and also contains the screen
+     depth and resolution of the display. It is the property of the window
+     object.
+
+   * The window objects represent the webpage, document object represent
+     the webpage contents and screen object represent to the user's
+     showing the input and output values 
